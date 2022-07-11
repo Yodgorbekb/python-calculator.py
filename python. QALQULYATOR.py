@@ -4,18 +4,13 @@ Created on Sun Jul 10 20:29:43 2022
 
 @author: Ogabek
 """
-ism = input("Ismingiz nima?")
-print("Assalomu alaykum")
 
 print("Pythontilida yozilgan kalkulyator")    
 def calculator(son1,son2):
     """Python tilida yozilgan kalkulyator"""
     son = {'son1':son1,
            'son2':son2}
-           #    'son2':son2}
-           #    't_joy':t_joy,
-            #   'email':email,
-             #  'tel_raqami':tel_raqami}
+         
     return son
 
 print("\nArifmetik amallarni bajarish uchun son kiriting\n")
@@ -29,8 +24,8 @@ while True:
     print(san)
     san.append(calculator(son1,son2))
     print(san)
-    javob = input("Yana son qo'shasizmi?  (yes/no) \nTarixni ko'rish uchun (tarix) deb yozing")
-  #  javob += "(Tarixni tozalash uchun (new) deb yozing)"
+    javob = input("Yana son qo'shasizmi?  (yes/no)")
+ 
     if javob=='no':
         break
         
