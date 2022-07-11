@@ -4,7 +4,8 @@ Created on Sun Jul 10 20:29:43 2022
 
 @author: Ogabek
 """
-
+ism = input("Ismingiz nima?")
+print("Assalomu alaykum")
 
 print("Pythontilida yozilgan kalkulyator")    
 def calculator(son1,son2):
